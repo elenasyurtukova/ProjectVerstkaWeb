@@ -1,10 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shop_main</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+<div class="row align-items-start">
+    <div class="col-2">
+        <div data-bs-theme="dark">
+            <div class="card" style="max-width: 16rem; height: 950px;">
+                <h5>
+                    <span class="badge text-bg-info mb-3 text-dark">B</span> Меню
+                </h5>
+                <nav class="flex-column">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">
+                                <i class="fas fa-home"></i>Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Категории</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Заказы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="btn-group position-absolute bottom-0 start-0">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                    Пользователь
+                </button>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a class="dropdown-item" href="#">Выход</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">Профиль</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
+    <header class="col-9 jumbotron-fluid text-black text-center">
+        <div class="container">
+            <h1 class="displey-4">Главная</h1>
+            <p class="lead">Вы находитесь на сайте, предназначенном для продажи товаров</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Товар 1</h4>
+                        <h3>$ 100</h3>
+                        <p class="card-text">10 users included, 2Gb of storage, Email support, Help center access</p>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-outline-dark" type="button">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Товар 1</h4>
+                        <h3>$ 100</h3>
+                        <p class="card-text">10 users included, 2Gb of storage, Email support, Help center access</p>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-outline-dark" type="button">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Товар 1</h4>
+                        <h3>$ 100</h3>
+                        <p class="card-text">10 users included, 2Gb of storage, Email support, Help center access</p>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-outline-dark" type="button">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+<script src="js/bootstrap.bundle.min.js">
+</script>
 </body>
 </html>
