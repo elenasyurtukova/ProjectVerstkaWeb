@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Shop_main</title>
+    <title>Contacts</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
@@ -48,53 +48,46 @@
             </div>
         </div>
     </div>
-
-    <header class="col-9 jumbotron-fluid text-black text-center">
-        <div class="container">
-            <h1 class="displey-4">Главная</h1>
-            <p class="lead">Вы находитесь на сайте, предназначенном для продажи товаров</p>
+    <header class="col-9 jumbotron-fluid text-black">
+        <div class="container mt-5 mb-5">
+            <h1 class="displey-4 text-center">Контакты</h1>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h4 class="card-title">Товар 1</h4>
-                        <h3>$ 100</h3>
-                        <p class="card-text">10 users included, 2Gb of storage, Email support, Help center access</p>
-                        <div class="d-grid gap-2">
-                            <button class="btn btn-outline-dark" type="button">Купить</button>
-                        </div>
+        <div class="row">
+            <div class="col-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Имя</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
                     </div>
-                </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Почта</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                               placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea" class="form-label">Сообщение</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea" rows="3"></textarea>
+                    </div>
+                </form>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h4 class="card-title">Товар 1</h4>
-                        <h3>$ 100</h3>
-                        <p class="card-text">10 users included, 2Gb of storage, Email support, Help center access</p>
-                        <div class="d-grid gap-2">
-                            <button class="btn btn-outline-dark" type="button">Купить</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h4 class="card-title">Товар 1</h4>
-                        <h3>$ 100</h3>
-                        <p class="card-text">10 users included, 2Gb of storage, Email support, Help center access</p>
-                        <div class="d-grid gap-2">
-                            <button class="btn btn-outline-dark" type="button">Купить</button>
-                        </div>
-                    </div>
+            <div class="col-6">
+                <div class="card-body"> <!-- Тело карточки, внутри которого размещаются данные -->
+                    <h2 class="displey-4 ms-5">Нашы контакты:</h2>
+                    <p class="text-start ms-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                        irure dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p class="text-start ms-5 mt-3">
+                        While these feedback styles cannot be styled with CSS, you can still customize the feedback
+                        text through JavaScript
+                    </p>
                 </div>
             </div>
         </div>
     </header>
 </div>
-<script src="js/bootstrap.bundle.min.js">
-</script>
 </body>
 </html>
